@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  /* background: rgb(255, 255, 255); */
+}
+
+main {
+  background-image: url(../../../img/salon/isetan3.jpg);
+  background-size: cover;
+  height: 550px;
+  width: 100%;
+}
+
+header img {
+  margin-left: 15px;
+  float: left;
+}
+
+#h_nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  width: 70%;
+  text-align: center;
+  height: 80px;
+}
+
+#h_nav ul li {
+
+  position: relative;
+  padding-top: 20px;
+  margin-left: 50px;
+}
+
+#h_nav ul li a {
+  display: block;
+  width: 100px;
+  
+}
+
+#h_nav ul li a::after,
+#h_nav ul li a::before {
+  display: block;
+  content: " ";
+  position: absolute;
+}
+
+#h_nav ul li a::after {
+  left: 50%;
+  width: 5px;
+  height: 5px;
+  background-color: #555;
+  border-radius: 100%;
+}
+
+#h_nav ul li a:hover:after {
+  background-color: #555;
+  width: 150%;
+  left: -25%;
+  border-radius: 5px;
+}
+
+#h_nav ul li a {
+  text-decoration: none;
+  color:rgb(61, 41, 41);
+}
+
+#h_nav ul li a.current {
+  color:#555;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 50px;
+}
+
+#about1 {
+  width: 800px;
+  margin: 0 auto;
+  padding: 15px;
+  background-color: rgba(225, 225, 225, 0.7);
+  line-height: 28px;
+  letter-spacing: 0.7px;
+  border-radius: 10px;
+}
+
+.tel {
+  text-decoration: none;
+  font-weight: bold;
+  color: #000;
+}
+
+.tel:hover {
+  color: blue;
+}
+
+.ad {
+  padding-bottom: 10px;
+}
+
+.time {
+  padding-top: 10px;
+}
+
+.map {
+  text-align: center;
+  padding-top: 200px;
+  margin-bottom: 30px;
+}
+
+#copy {
+  display: block;
+  font-size: small;
+  padding-top: 1000px;
+  text-align: center;
+}
